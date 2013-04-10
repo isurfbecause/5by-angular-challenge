@@ -20,17 +20,17 @@ Each video in the list should show:
 * Thumbnail
 * How many views and likes the video has
 
-_Feel free to use/adapt any code examples you find online to complete the challenge._
+_Feel free to use/adapt any code examples you find online to complete the challenge.
 Use any YouTube API you feel most comfortable with. Even the latest experimental V3 API.
-You should use as little jQuery as you can, even though it is available. Try to stick to AngularJS conventions for DOM manipulation (ie: keep it inside Directives).
+You should use as little jQuery as you can, even though it is available. Try to stick to AngularJS conventions for DOM manipulation (ie: keep it inside Directives)._
 
 ### Resources:
 
-[AngularJS Developer Guide](http://docs.angularjs.org/guide/)
-[YouTube Data API](https://developers.google.com/youtube/v3/getting-started)
-[AngularJS App Example](https://github.com/angular-app/angular-app)
-[Angular-local-storage](https://github.com/grevory/angular-local-storage)
-[Twitter Bootstrap](http://twitter.github.io/bootstrap/)
+* [AngularJS Developer Guide](http://docs.angularjs.org/guide/)
+* [YouTube Data API](https://developers.google.com/youtube/v3/getting-started)
+* [AngularJS App Example](https://github.com/angular-app/angular-app)
+* [Angular-local-storage](https://github.com/grevory/angular-local-storage)
+* [Twitter Bootstrap](http://twitter.github.io/bootstrap/)
 
 
 ## Extra Bonus Points
