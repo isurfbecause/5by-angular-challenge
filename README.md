@@ -8,9 +8,10 @@ The problem is that now you don't know what any of them actually are!
 
 You decide to build a single-page AngularJS app that:
 
-1. Given a YouTube URL
-2. get the metadata from YouTube,
-3. and append the information to a list on the page.
+1. Given a YouTube URL (ie: [http://www.youtube.com/watch?v=uFTFsKmkQnQ](http://www.youtube.com/watch?v=uFTFsKmkQnQ))
+2. Get the metadata using YouTube API,
+3. Append the video metadata to a list on the page.
+4. Save the list of videos to LocalStorage and fetch them when you reload the page.
 
 Each video in the list should show:
 
@@ -31,14 +32,14 @@ You should use as little jQuery as you can, even though it is available. Try to 
 * [AngularJS App Example](https://github.com/angular-app/angular-app)
 * [Angular-local-storage](https://github.com/grevory/angular-local-storage)
 * [Twitter Bootstrap](http://twitter.github.io/bootstrap/)
+* [AngularJS Videos](http://www.youtube.com/user/angularjs)
 
 
 ## Extra Bonus Points
 
-1. (Intermediate) Save the list of videos to LocalStorage and fetch them when you reload the page.
-2. (Intermediate) Write unit tests and end-to-end (e2e) tests for your app
-3. (Advanced) Add a play button that embeds the video and plays it.
-4. (Advanced) Given any URL, scan the page for YouTube videos and add them all to the list.
+1. Write unit tests and end-to-end (e2e) tests for your app
+2. Add a play button that embeds the video and plays it.
+3. Given any URL, scan the page for YouTube videos and add them all to the list.
 
 
 ## How to get started
