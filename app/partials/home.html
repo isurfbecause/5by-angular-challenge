@@ -2,4 +2,8 @@
     <div class="hero-unit">
         <h1 ng-bind="message"></h1>
     </div>
+    <div>
+        <input type="text" id="youtubeURL" ng-model="youtubeURL">
+        <button class="btn" ng-click="getMeta( youtubeURL )">Search</button>
+    </div>
 </div>
