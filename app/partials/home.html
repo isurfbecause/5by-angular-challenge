@@ -6,4 +6,14 @@
         <input type="text" id="youtubeURL" ng-model="youtubeURL">
         <button class="btn" ng-click="getMeta( youtubeURL )">Search</button>
     </div>
+
+  <div class="row">
+    <div class="span2">
+      <label for="title">Title: </label>
+    </div>
+    <div class="span6">
+      {{ result.title }}
+    </div>
+  </div>
+
 </div>
