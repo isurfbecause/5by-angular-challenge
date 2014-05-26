@@ -1,18 +1,45 @@
 <div class="container">
     <div class="hero-unit">
         <h1 ng-bind="message"></h1>
+        <h2>{{message}}</h2>
     </div>
-    <div>
+    <div class="row">
         <input type="text" id="youtubeURL" ng-model="youtubeURL">
         <button class="btn" ng-click="getMeta( youtubeURL )">Search</button>
     </div>
 
-  <div class="row">
-    <div class="span2">
-      <label for="title">Title: </label>
+  <div ng-repeat="video in videos">
+    <div class="row">
+      <div class="span2">
+        <label for="title">Title: </label>
+      </div>
+      <div class="span6">
+        {{ video.title }}
+      </div>
     </div>
-    <div class="span6">
-      {{ result.title }}
+    <div class="row">
+      <div class="span2">
+        <label for="title">Author: </label>
+      </div>
+      <div class="span6">
+        {{ video.channelTitle }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2">
+        <label for="title">Date Posted: </label>
+      </div>
+      <div class="span6">
+        {{ video.publishedAt }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2">
+        <label for="title">Thumbnail: </label>
+      </div>
+      <div class="span6">
+        <img ng-src="{{video.thumbnails.default.url}}" alt="">
+      </div>
     </div>
   </div>
 
